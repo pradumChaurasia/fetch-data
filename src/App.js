@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import React, {useEffect, useState} from 'react'
 import './App.css';
 
@@ -67,7 +67,7 @@ function App() {
       </button>
 
       <h2>  
-          {sortOrder=='asc'?'ascending':'descending'}
+          {sortOrder==='asc'?'ascending':'descending'}
       </h2>
 
       <ul>
